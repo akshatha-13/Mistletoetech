@@ -1,0 +1,74 @@
+.digital-technologies-section {
+  background: #f7f9fb;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.digital-technologies-header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1a3d8f;
+}
+
+.digital-technologies-header p {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+.digital-technologies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.digital-technologies-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.digital-technologies-card:hover {
+  box-shadow: 0 8px 32px rgba(30,144,255,0.15);
+  transform: translateY(-6px) scale(1.03);
+}
+
+.digital-technologies-icon {
+  font-size: 2.5rem;
+  margin-bottom: 18px;
+}
+
+.digital-technologies-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1a3d8f;
+}
+
+.digital-technologies-card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .digital-technologies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .digital-technologies-grid {
+    grid-template-columns: 1fr;
+  }
+  .digital-technologies-section {
+    padding: 32px 0;
+  }
+}

@@ -1,0 +1,68 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 16px 32px;
+  border-bottom: 3px solid #222;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 16px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-shadow: 0 2px 8px rgba(30, 144, 255, 0.15), 0 1px 0 #fff;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #0a3871 40%, #176a3d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 4px;
+}
+
+.company-desc {
+  font-size: 0.8rem;
+  color: #222;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  font-size: 1.1rem;
+  color: #1a1a3d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.header-nav li.active {
+  color: #e94e1b;
+}
+
+.header-nav li:hover {
+  color: #e94e1b;
+}

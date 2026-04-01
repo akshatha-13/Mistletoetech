@@ -104,7 +104,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="copyright">
           Copyright © {currentYear} Amaravathi Software Innovations Pvt Ltd{' '}
-          <a href="#" className="amaravathi-link">Amaravathi Software</a>
+          <a href="" className="amaravathi-link">Amaravathi Software</a>
         </p>
       </div>
     </footer>

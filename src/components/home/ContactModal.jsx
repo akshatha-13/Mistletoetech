@@ -19,7 +19,7 @@ const ContactModal = ({
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex min-h-screen items-center justify-center bg-black/50 p-4">
+    <div className="fixed inset-0 z-60 flex min-h-screen items-center justify-center bg-black/50 p-4">
       <div className="w-full max-w-[760px] max-h-[calc(100vh-4rem)] overflow-y-auto rounded-[2rem] bg-white p-8 shadow-2xl">
         <div className="flex items-center justify-between gap-4 pb-4 border-b border-gray-200">
           <div>

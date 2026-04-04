@@ -25,7 +25,7 @@ const NavBar = ({ activeSection, onSelectSection, onContactOpen }) => {
       <div className="flex justify-between items-center px-6 md:px-12 py-6 max-w-[1440px] mx-auto w-full">
         <button
           type="button"
-          className="text-2xl font-black tracking-tighter text-black dark:text-white cursor-pointer"
+          className="text-lg md:text-2xl font-black tracking-tighter text-black dark:text-white cursor-pointer"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           MISTLETOE

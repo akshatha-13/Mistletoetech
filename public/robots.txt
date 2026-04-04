@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mistletoetech.com/sitemap.xml
+Sitemap: https://www.mistletoetech.com/sitemap.xml

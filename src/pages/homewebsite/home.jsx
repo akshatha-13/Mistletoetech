@@ -97,6 +97,8 @@ const Home = () => {
           name="description"
           content="Mistletoe Tech Solutions provides AI-powered software, digital media management, web and mobile development, and scalable cloud solutions."
         />
+        <link rel="canonical" href="https://www.mistletoetech.com/" />
+        <meta property="og:url" content="https://www.mistletoetech.com/" />
       </Helmet>
       <NavBar activeSection={activeSection} onSelectSection={scrollToSection} onContactOpen={openContact} />
 

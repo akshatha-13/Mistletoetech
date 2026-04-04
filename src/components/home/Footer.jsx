@@ -10,13 +10,31 @@ const Footer = () => (
         </div>
       </div>
       <div className="flex flex-wrap items-center gap-4 text-gray-500 dark:text-gray-400">
-        <a aria-label="LinkedIn" className="text-xl hover:text-black dark:hover:text-white transition-colors" href="#">
+        <a
+          aria-label="LinkedIn"
+          className="text-xl hover:text-black dark:hover:text-white transition-colors"
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a aria-label="Instagram" className="text-xl hover:text-black dark:hover:text-white transition-colors" href="#">
+        <a
+          aria-label="Instagram"
+          className="text-xl hover:text-black dark:hover:text-white transition-colors"
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaInstagram />
         </a>
-        <a aria-label="Twitter" className="text-xl hover:text-black dark:hover:text-white transition-colors" href="#">
+        <a
+          aria-label="Twitter"
+          className="text-xl hover:text-black dark:hover:text-white transition-colors"
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaTwitter />
         </a>
       </div>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Mistletoe">
+  <rect width="32" height="32" rx="6.5" fill="#000000" />
+  <path
+    fill="#ffffff"
+    d="M7 25V7h4.2l3.8 9.2L18.8 7H23v18h-3.5V12.5L15.3 22h-1.6L10.5 12.5V25H7z"
+  />
+</svg>

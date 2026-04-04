@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <rect width="200" height="200" rx="40" fill="#000000" />
-  <text x="50%" y="60%" fill="#ffffff" font-family="Inter, sans-serif" font-size="110" font-weight="900" text-anchor="middle" dominant-baseline="middle">M</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Mistletoe">
+  <g transform="scale(6.25)">
+    <rect width="32" height="32" rx="6.5" fill="#000000" />
+    <path
+      fill="#ffffff"
+      d="M7 25V7h4.2l3.8 9.2L18.8 7H23v18h-3.5V12.5L15.3 22h-1.6L10.5 12.5V25H7z"
+    />
+  </g>
 </svg>

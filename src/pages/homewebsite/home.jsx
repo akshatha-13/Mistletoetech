@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 import {
   NavBar,
   HeroSection,
@@ -90,6 +91,13 @@ const Home = () => {
 
   return (
     <div className="bg-surface text-on-surface selection:bg-primary selection:text-on-primary">
+      <Helmet>
+        <title>Mistletoe Tech Solutions | AI Software &amp; Digital Media</title>
+        <meta
+          name="description"
+          content="Mistletoe Tech Solutions provides AI-powered software, digital media management, web and mobile development, and scalable cloud solutions."
+        />
+      </Helmet>
       <NavBar activeSection={activeSection} onSelectSection={scrollToSection} onContactOpen={openContact} />
 
       <ContactModal

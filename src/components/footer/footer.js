@@ -23,7 +23,10 @@ const Footer = () => {
   const socialLinks = [
     { icon: FiFacebook, href: '#facebook' },
     { icon: FiTwitter, href: '#twitter' },
-    { icon: FiLinkedin, href: '#linkedin' },
+    {
+      icon: FiLinkedin,
+      href: 'https://www.linkedin.com/in/mistletoe-tech-solutions-a023793bb/'
+    },
     { icon: FiGithub, href: '#github' }
   ];
 

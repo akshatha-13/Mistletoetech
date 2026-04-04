@@ -13,7 +13,7 @@ const Footer = () => (
         <a
           aria-label="LinkedIn"
           className="text-xl hover:text-black dark:hover:text-white transition-colors"
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/mistletoe-tech-solutions-a023793bb/"
           target="_blank"
           rel="noopener noreferrer"
         >

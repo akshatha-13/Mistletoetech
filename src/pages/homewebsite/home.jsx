@@ -92,13 +92,22 @@ const Home = () => {
   return (
     <div className="bg-surface text-on-surface selection:bg-primary selection:text-on-primary">
       <Helmet>
-        <title>Mistletoe Tech Solutions | AI Software &amp; Digital Media</title>
+        <title>Mistletoe Tech Solutions | AI, Web &amp; Mobile App Development &amp; Digital Marketing</title>
         <meta
           name="description"
-          content="Mistletoe Tech Solutions provides AI-powered software, digital media management, web and mobile development, and scalable cloud solutions."
+          content="Mistletoe Tech Solutions provides AI solutions, web and mobile app development, and digital marketing services to help businesses grow, automate, and scale."
         />
         <link rel="canonical" href="https://www.mistletoetech.com/" />
         <meta property="og:url" content="https://www.mistletoetech.com/" />
+        <meta
+          property="og:title"
+          content="Mistletoe Tech Solutions | AI, Web &amp; Mobile App Development &amp; Digital Marketing"
+        />
+        <meta
+          property="og:description"
+          content="Mistletoe Tech Solutions provides AI solutions, web and mobile app development, and digital marketing services to help businesses grow, automate, and scale."
+        />
+        <meta property="og:image" content="https://www.mistletoetech.com/logo.png" />
       </Helmet>
       <NavBar activeSection={activeSection} onSelectSection={scrollToSection} onContactOpen={openContact} />
 

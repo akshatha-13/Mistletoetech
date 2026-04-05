@@ -24,13 +24,18 @@ async function main() {
   const icoBuffer = await pngToIco(pngBuffers);
   fs.writeFileSync(path.join(root, 'public', 'favicon.ico'), icoBuffer);
 
-  await sharp(svg)
-    .resize(512, 512)
-    .png({ compressionLevel: 9 })
-    .toFile(path.join(root, 'public', 'logo.png'));
+  const out = (name, px) =>
+    sharp(svg)
+      .resize(px, px)
+      .png({ compressionLevel: 9 })
+      .toFile(path.join(root, 'public', name));
+
+  await out('logo.png', 512);
+  await out('pwa-192.png', 192);
+  await out('pwa-512.png', 512);
 
   console.log(
-    'Wrote favicon.ico (%d bytes) and logo.png from icon.svg',
+    'Wrote favicon.ico (%d bytes), logo.png, pwa-192.png, pwa-512.png from icon.svg',
     icoBuffer.length
   );
 }
